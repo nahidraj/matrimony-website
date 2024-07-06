@@ -1,0 +1,25 @@
+.app_area {
+  margin-top: 80px;
+
+  .text {
+    ul {
+      padding-left: 17px;
+      margin-bottom: 30px;
+
+      li {
+        @include font(18px, 500);
+        margin-bottom: 14px;
+      }
+    }
+    .img{
+      img{
+        width: 160px;
+        margin-right: 10px;
+        transition: all linear 0.1s;
+        &:hover{
+          transform: scale(1.03);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,342 @@
+.header_area {
+  background-color: $white;
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  padding: 5px 0;
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .navbar-nav {
+    .nav-item {
+      margin-right: 15px;
+
+      .nav-link {
+        font-size: 16px;
+        font-weight: 600;
+        color: #0C0B52;
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+
+  .login {
+    .title {
+      @include font(16px, 500);
+    }
+  }
+
+  .login_btn {
+    @include font(14px, 600);
+    color: $white;
+    line-height: 24px;
+    background-color: $primary;
+    border-radius: 40px;
+    padding: 5px 16px;
+    border: 0;
+
+    &:hover {
+      background-color: $black;
+    }
+  }
+
+  .info {
+    background-color: #ececec;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    position: relative;
+    cursor: pointer;
+
+    .info_dropdown_box {
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 300px;
+      background-color: $white;
+      padding: 30px;
+      cursor: auto;
+      visibility: hidden;
+      opacity: 0;
+      transition: $transition;
+
+
+      .title {
+        @include font(15px, 500);
+        margin-bottom: 7px;
+      }
+
+      a {
+        color: $paragraph;
+        @include font(13px, 500);
+
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+    &:hover{
+      .info_dropdown_box{
+         visibility: visible;
+         opacity: 1;
+ 
+      }
+    }
+  }
+}
+
+#header-fixed-height.active-height {
+  display: block;
+  height: 67px;
+}
+
+.sticky-menu {
+  background-color: $white;
+  animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
+  box-shadow: 0 2px 20px rgba(25, 25, 25, 0.1);
+  border-radius: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+
+/*=============================
+	05. Mobile Menu start
+===============================*/
+
+.mobile-menu-area {
+  z-index: 999;
+  background-color: $white;
+  width: 100%;
+  transition: all linear 0.2s;
+  margin-top: 0;
+}
+
+.mobile-menu-area .mobile-topbar {
+  width: 100%;
+  background-color: $white;
+  padding: 13px 0;
+}
+
+.mobile-menu-area .mobile-topbar .bars {
+  position: relative;
+}
+
+.mobile-menu-area .mobile-topbar .bars i {
+  height: 35px;
+  width: 45px;
+  color: $black;
+  font-size: 24px;
+  text-align: center;
+  line-height: 35px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: $transition;
+}
+
+.mobile-menu-area .mobile-topbar .icon i {
+  width: 45px;
+  height: 45px;
+  background-color: $white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 45px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.mobile-menu-area .mobile-topbar .icon i:hover {
+  background-color: $primary;
+  color: $white;
+  border-color: $primary;
+}
+
+.mobile-menu-area .mobile-menu-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.mobile-menu-area .mobile-menu-main {
+  width: 320px;
+  height: 100%;
+  background-color: $white;
+  position: fixed;
+  top: 0;
+  left: -320px;
+  z-index: 999;
+  overflow-y: scroll;
+  transition-duration: 0.3s;
+}
+
+.mobile-menu-area .mobile-menu-main .logo {
+  padding: 20px;
+}
+
+.mobile-menu-area .mobile-menu-main .close-mobile-menu {
+  position: absolute;
+  top: 16px;
+  right: 10px;
+}
+
+.mobile-menu-area .mobile-menu-main .close-mobile-menu i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  color: $black;
+  font-size: 17px;
+  cursor: pointer;
+  transition: all linear 0.2s;
+  transition: $transition;
+}
+
+.mobile-menu-area .mobile-menu-main .close-mobile-menu i:hover {
+  color: $primary;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list {
+  padding-top: 10px;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li a {
+  font-weight: 500;
+  font-size: 15px;
+  color: $black;
+  border-top: 1px solid var(--border);
+  width: 100%;
+  padding: 0px 20px;
+  line-height: 44px;
+  padding-right: 10px;
+  transition: all linear 0.2s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li:last-child a {
+  border-bottom: 1px solid var(--border);
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li a:hover {
+  color: $primary;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li a i {
+  width: 32px;
+  height: 32px;
+  background-color: $white;
+  text-align: center;
+  line-height: 32px;
+  font-size: 12px;
+  border-radius: 3px;
+  background-color: var(--section-bg);
+  transition: all linear 0.2s;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li a:hover i {
+  background-color: $primary;
+  color: $white;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li ul {
+  padding-left: 0;
+  display: none;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li ul a {
+  padding: 0px 20px;
+  padding-left: 40px;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .menu-list ul li ul li:last-child a {
+  border-bottom: 0;
+}
+
+.mobile-menu-area .mobile-menu-main .menu-body .social-icon ul li {
+  display: inline-block;
+}
+
+.mobile-menu-area .mobile-menu-main .social-icon {
+  padding: 20px;
+  text-align: center;
+}
+
+.mobile-menu-area .mobile-menu-main .social-icon ul li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.mobile-menu-area .mobile-menu-main .social-icon ul li a {
+  width: 36px;
+  height: 36px;
+  color: $black;
+  text-align: center;
+  font-size: 16px;
+  line-height: 36px;
+  border-radius: 3px;
+  background-color: var(--section-bg);
+}
+
+.mobile-menu-area .mobile-menu-main .social-icon ul li a:hover {
+  background-color: $primary;
+  color: $white;
+  border-color: $primary;
+}
+
+.mobile-menu-overlay {
+  transition-duration: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.mobile-menu-overlay.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.mobile-menu-main.active {
+  left: 0 !important;
+}
+
+.mobile-menu-area .mobile-menu-action-btn {
+  padding: 20px;
+}
+
+.mobile-menu-area .mobile-menu-action-btn a {
+  color: $white;
+  background-color: $primary;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.mobile-menu-area .mobile-menu-action-btn a:hover {
+  background-color: $black;
+}
+
+.mobile-menu-area .mobile-menu-action-btn a i {
+  font-size: 14px;
+  margin-left: 8px;
+}

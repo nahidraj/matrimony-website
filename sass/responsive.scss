@@ -1,0 +1,652 @@
+@media (min-width:1400px) and (max-width:1799.98px) {
+  .dashboard_area .content_body .left_content .check_doctor_item .see_btn a {
+    margin-left: 18px;
+  }
+
+  .dashboard_area .content_body .left_content .check_doctor_item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    background-color: #F4F9FD;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .video_call_area {
+    max-width: 90%;
+  }
+}
+
+@media (max-width:1399.98px) {
+  .header_area .navbar-nav .nav-item .nav-link {
+    font-size: 14px;
+  }
+
+  .header_area .login_btn {
+    margin-left: 10px;
+  }
+
+  .single_specialities_area .right_info .item .image {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .banner_area .banner_item .banner_title {
+    padding-right: 0;
+  }
+
+  .banner_area .banner_item .text {
+    max-width: 70%;
+    padding-left: 80px;
+  }
+
+  .banner_area .banner_item .banner_title {
+    font-size: 53px;
+    line-height: 74px;
+  }
+
+  .banner_area .banner_item .banner_des {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+  }
+
+  .why_use .about-content {
+    padding-right: 80px;
+  }
+
+  .section_title .title {
+    font-size: 42px;
+  }
+
+  .just_few_steps_content {
+    padding-left: 80px;
+  }
+
+  .qr_banner_area .overlay .text .title {
+    font-size: 29px;
+    margin-bottom: 32px;
+  }
+
+  .login_area .form {
+    margin-left: 0;
+  }
+
+  .dashboard_area .content_body .left_content .top_banner .text p a {
+    margin-left: 15px;
+    position: relative;
+    z-index: 99;
+  }
+
+  .dashboard_area .content_body .right_content .specilities_list .specialities_item {
+    padding-left: 14px;
+  }
+
+  .dashboard_area .content_body .right_content .specilities_list .specialities_item .text {
+    font-size: 15px;
+  }
+
+  .dashboard_area .content_body .left_content .check_doctor_item .see_btn a {
+    font-size: 13px;
+    margin-left: 10px;
+  }
+
+  .video_call_area {
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width:1199.98px) {
+  .header_area {
+    padding: 0;
+  }
+
+  .footer_area .col_label::before {
+    display: none;
+  }
+
+  .footer_area .apps .title {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .footer_area .footer_widget a {
+    font-size: 17px;
+  }
+
+  .footer_area .contact li a {
+    font-size: 17px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+
+  .single_specialities_area .filter_sidebar {
+    position: fixed;
+    top: 0;
+    left: -300px;
+    z-index: 999;
+    width: 300px;
+    height: 100%;
+    overflow-y: scroll;
+    transition: all linear 0.3s;
+  }
+
+  .mobile_filter_option {
+    background-color: #19CE67;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 0;
+    padding: 6px 12px;
+  }
+
+  .mobile_filter_option:hover {
+    background-color: #222;
+  }
+
+  .mobile_filter_option svg {
+    margin-right: 2px;
+    position: relative;
+    top: 0px;
+  }
+
+  .filter_sidebar.active {
+    left: 0 !important;
+  }
+
+  .specialities_details_area .profile_main .consultation {
+    margin-top: 24px;
+  }
+
+  .specialities_details_area .profile_tabs_info .info_blocks .short_info .main {
+    grid-template-columns: unset;
+  }
+
+  .banner_area .servicer_main {
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0;
+    padding-top: 80px;
+  }
+
+  .why_use .about-content {
+    padding: 30px;
+  }
+
+  .just_few_steps_content {
+    padding: 30px;
+  }
+
+  .section_title .title {
+    font-size: 35px;
+  }
+
+  .main_tabs .col-lg-5 {
+    align-self: center;
+  }
+
+  .mobile-menu-area .mobile-topbar {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 13px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .login_area {
+    padding: 60px 0;
+  }
+
+  .login_area .form {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+
+  #header-fixed-height.active-height {
+    height: 62px;
+  }
+
+  .dashboard_area aside {
+    left: -275px;
+    background-color: #fff;
+    transition: all linear 0.2s;
+  }
+
+  .dashboard_area .content_body {
+    padding-left: 24px;
+  }
+
+  .dashboard_area .content_body .left_content .check_doctor_item .left .text .n_title {
+    font-size: 14px;
+  }
+
+  .dashboard_area .content_body .right_content .video_content .video_thumb {
+    height: 328px;
+  }
+
+  .dashboard_area .top_header .right_option .search {
+    width: 349px;
+  }
+
+  .dash_sidebar_control {
+    background-color: transparent;
+    border: 0;
+
+    svg {
+      width: 27px;
+      height: 27px;
+      ;
+    }
+  }
+
+  .show_sidebar {
+    left: 0 !important;
+  }
+}
+
+@media (max-width:991.98px) {
+  .specialities_details_area .profile_main .profile {
+    gap: 24px;
+  }
+
+  .specialities_details_area .profile_main .profile .image {
+    height: 336px;
+  }
+
+  .banner_area .banner_item .text {
+    max-width: 100%;
+    padding: 0 80px;
+  }
+
+  .banner_area .banner_item {
+    padding: 100px 0;
+    padding-bottom: 100px;
+  }
+
+  .banner_area .banner_item .banner_title {
+    font-size: 43px;
+    line-height: 63px;
+    padding-bottom: 20px;
+  }
+
+  .banner_area .banner_item .banner_des {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  .when_to_use_area {
+    padding: 0;
+  }
+
+  .when_to_use_area .image {
+    margin-top: 0;
+  }
+
+  .when_to_use_area .info_main {
+    margin-top: 50px;
+  }
+
+  .when_to_use_area .info_main .info_item+.info_item {
+    margin-top: 40px;
+  }
+
+  .easy_steps_feel_better_area .main_tabs .image {
+    max-width: 511px;
+    margin-left: unset;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+
+  .easy_steps_feel_better_area .section_title {
+    margin-bottom: 0;
+  }
+
+  .easy_steps_feel_better_area .main_tabs .info_item {
+    margin-top: 40px;
+  }
+
+  .qr_banner_area .overlay .text {
+    text-align: center;
+  }
+
+  .qr_banner_area .overlay .text p {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .image.d-flex.align-items-center.gap-4.justify-content-end {
+    justify-content: center !important;
+  }
+
+  .login_area .main .item .text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .dashboard_area .top_header .right_option .doctor .doctor_btn {
+    display: none;
+  }
+
+  .dashboard_area .top_header .right_option .search {
+    width: 307px;
+  }
+
+  .dashboard_area .top_header .right_option .profile .user_profile {
+    padding-right: 0;
+  }
+
+  .dashboard_area .top_header {
+    padding: 12px 24px !important;
+  }
+
+  .logo_part {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+
+  .dashboard_area aside {
+    top: 76px;
+  }
+}
+
+@media (max-width:767.98px) {
+  .specialities_area .top_title .title {
+    font-size: 26px;
+  }
+
+  .specialities_area .top_title {
+    margin-bottom: -30px;
+  }
+
+  .footer_area .footer_widget {
+    padding-top: 0;
+  }
+
+  .footer_area {
+    padding: 80px 0 20px 0;
+  }
+
+  .specialities_area {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .pagination-area .page-numbers {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  .specialities_details_area .profile_main .profile {
+    gap: 35px;
+    flex-direction: column;
+  }
+
+  .banner_area .icons {
+    display: none !important;
+  }
+
+  .banner_area .banner_item .text {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  .banner_area .servicer_main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .just_few_steps {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .easy_steps_feel_better_area .main_tabs .left .num {
+    width: 50px;
+  }
+
+  .easy_steps_feel_better_area .main_tabs .info_item .right {
+    margin-left: 24px;
+  }
+
+  .section_title .title {
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .plans_area .bottom_info {
+    gap: 14px;
+    padding: 20px;
+    flex-direction: column;
+  }
+
+  .plans_area .bottom_info {
+    text-align: center;
+  }
+
+  .contact_form_area .contact_form .section_title p {
+    font-size: 16px;
+  }
+
+  .contact_form_area .contact_form {
+    padding: 40px 20px;
+  }
+
+  .qr_banner_area {
+    margin-top: 60px;
+  }
+
+  .faq_area .accordion-item .accordion-header .accordion-button {
+    font-size: 16px;
+  }
+
+  .top_header .logo {
+    display: none;
+  }
+
+  .dashboard_area .top_header .right_option {
+    gap: 7px;
+  }
+
+  .dashboard_area .top_header .right_option .profile .user_profile span {
+    display: none;
+  }
+
+  .dashboard_area .top_header .right_option .profile .notification {
+    display: none;
+  }
+
+  .video_call_area .call_video {
+    padding: 10px;
+  }
+}
+
+@media (max-width:575.98px) {
+  .mobile_filter_option {
+    margin-bottom: 15px;
+  }
+
+  .single_specialities_area .right_info .top_title {
+    text-align: center;
+  }
+
+  .specialities_details_area .profile_main .profile .image {
+    height: unset;
+    width: 100%;
+  }
+
+  .specialities_details_area .profile_main .profile {
+    padding: 20px;
+  }
+
+  .specialities_details_area .profile_main .info_tabs .nav-link {
+    gap: 5px;
+    padding: 16px 14px;
+  }
+
+  .banner_area .banner_item .banner_title {
+    font-size: 32px;
+    line-height: 45px;
+    padding-bottom: 20px;
+  }
+
+  .banner_area .servicer_main {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .banner_area .download_app p {
+    font-size: 19px;
+    line-height: 28px;
+  }
+
+  .banner_area .download_app {
+    padding: 60px 0;
+  }
+
+  .banner_area {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .why_use .about-content {
+    padding: 15px;
+  }
+
+  .just_few_steps_content {
+    padding: 15px;
+  }
+
+  .when_to_use_area .info_main .info_item p {
+    font-size: 16px;
+  }
+
+  .easy_steps_feel_better_area {
+    padding: 60px 0;
+  }
+
+  .easy_steps_feel_better_area .main_tabs .info_item {
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .section_title p {
+    font-size: 16px;
+  }
+
+  .main_doctime_service {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-top: 60px;
+  }
+
+  .available_specialties_aera {
+    padding-top: 60px;
+  }
+
+  .qr_banner_area .overlay {
+    padding: 60px 0;
+  }
+
+  .qr_banner_area .overlay .text .title {
+    font-size: 26px;
+  }
+
+  .faq_area {
+    padding-top: 60px;
+  }
+
+  .faq_area .accordion-item .accordion-header .accordion-button {
+    padding: 22px;
+  }
+
+  .contact_form_area {
+    margin-top: 60px;
+  }
+
+  .login_area .form .title {
+    font-size: 26px;
+  }
+
+  .login_area .form p {
+    margin-bottom: 15px;
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .login_area .form .button_groups .or {
+    margin-top: 10px;
+    display: block;
+  }
+
+  .login_area .info .title {
+    font-size: 23px;
+  }
+
+  .otp_input_groups .input_field input {
+    height: 36px;
+    padding: 0 3px;
+    font-size: 16px;
+  }
+
+  .otp_input_groups {
+    gap: 8px;
+  }
+
+  .login_area .form {
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .dashboard_area .top_header .right_option .search {
+    width: 217px;
+  }
+
+  .dashboard_area .content_body .left_content .top_banner .text p a {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .dashboard_area .content_body .left_content .top_banner .image {
+    right: -68px;
+  }
+
+  .dashboard_area .content_body .left_content .top_banner {
+    padding-bottom: 20px;
+  }
+
+  .dashboard_area .content_body .left_content .check_doctor_item {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  .dashboard_area .content_body .left_content .check_doctor_item .see_btn {
+    margin-left: 50px;
+    flex: 0 0 auto;
+  }
+
+  .video_call_area .call_action .call_btn {
+    transform: scale(0.8);
+  }
+
+  .dashboard_area .content_body {
+    padding: 12px;
+  }
+
+  .video_call_area .call_action .call_btn {
+    transform: scale(0.9);
+  }
+
+  .video_call_area .call_action {
+    gap: 4px;
+  }
+  .video_call_area .call_action .close_call {
+    transform: scale(0.6);
+  }
+}

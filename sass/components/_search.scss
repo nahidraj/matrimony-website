@@ -1,0 +1,71 @@
+.search_area {
+  background-image: linear-gradient(to right, #2a262691, #2a2c3c);
+  padding: 80px 0;
+
+  .main {
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+    gap: 20px;
+
+    .fields {
+      flex-grow: 1;
+
+      .form-label {
+        @include font(15px, 500);
+        color: $white;
+      }
+
+      .input_groups {
+        label {
+          @include font(15px, 500);
+          color: $white;
+          margin-bottom: 8px;
+        }
+
+        input {
+          width: 100%;
+          height: 45px;
+          background-color: $white;
+          border-radius: 4px;
+          border: none;
+          padding: 0 15px;
+          font-size: 15px;
+        }
+
+        select {
+          width: 100%;
+          height: 45px;
+          background-color: $white;
+          border-radius: 4px;
+          border: none;
+          padding: 0 15px;
+          font-size: 15px;
+        }
+      }
+    }
+
+    .buttons {
+      flex: 0 0 auto;
+
+      button {
+        background: $primary;
+        color: $white;
+        border: 0;
+        padding: 11px 25px;
+        text-align: center;
+        font-size: 14px;
+        text-transform: uppercase;
+        transition: all 0.5s ease 0s;
+        border-radius: 3px;
+        font-weight: 600;
+        min-height: 45px;
+
+        &:hover {
+          background-color: $white;
+          color: $primary;
+        }
+      }
+    }
+  }
+}

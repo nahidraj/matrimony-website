@@ -1,0 +1,50 @@
+.browse_profile_area {
+  margin-top: 80px;
+  padding: 80px 0;
+  background-color: #FDFCF8;
+
+  .nav-pills {
+    display: flex;
+    justify-content: center;
+
+    .nav-link {
+      border: 1px solid $black;
+      border-radius: 50px;
+      color: $black;
+      @include font(15px, 500);
+      padding: 8px 20px;
+      margin: 0 10px;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+        border-color: $primary;
+      }
+    }
+
+    .active {
+      background-color: $primary;
+      color: $white;
+      border-color: $primary;
+    }
+  }
+  .profile_tags{
+    margin-top: 30px;
+    text-align: center;
+    ul{
+      li{
+        margin: 0 10px;
+        display: inline-block;
+        margin-top: 5px;
+        a{
+          @include font(15px, 500);
+          color: $black;
+          text-decoration: underline;
+          &:hover{
+            color: $primary;
+          }
+        }
+      }
+    }
+  }
+}
