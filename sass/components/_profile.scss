@@ -11,7 +11,7 @@
     margin: 0 12px;
 
     &:hover {
-      box-shadow: 0 0px 25px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 0px 15px rgba(0, 0, 0, 0.15);
     }
 
     .image {
@@ -48,9 +48,16 @@
       }
     }
   }
-.profile_slider{
-  padding: 0 50px;
-}
+
+  .profile_slider {
+    padding: 0 50px;
+  }
+
+  .slick-list {
+    padding: 22px 0;
+    margin: -22px 0;
+  }
+
   .arrow {
     width: 42px;
     height: 42px;
@@ -71,10 +78,12 @@
       border-color: $primary;
     }
   }
-  .arrow_left{
+
+  .arrow_left {
     left: 0;
   }
-  .arrow_right{
+
+  .arrow_right {
     right: 0;
   }
 }

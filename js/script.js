@@ -32,6 +32,14 @@ $(function () {
   // chosen js
   $(".chosen").chosen()
 
+  // gallery js
+  const items = document.querySelectorAll('.main .video_item');
+
+  items.forEach((item, index) => {
+    if ((index + 1) % 6 === 5) {
+      item.classList.add('moved-up');
+    }
+  });
 
   // testimonial slider js
   $(".testimonial_slider").slick({

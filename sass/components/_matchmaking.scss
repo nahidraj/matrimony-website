@@ -1,0 +1,25 @@
+.matchmaking_area{
+  padding: 80px 0;
+  margin-top: 80px;
+  background-color: #f8f8f8;
+  .item{
+    background-color: $white;
+    height: 100%;
+    border: 1px solid $border;
+    padding: 30px;
+    .section_title{
+      @include font(18px, 700);
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      img{
+        transition: $transition;
+        &:hover{
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}
