@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0, user-scalable=yes">
+  <title>Matrimony</title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <!--all css link -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/chosen.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+
+<body>
+  <!-- <div id="preloader">
+    <div class="loader"></div>
+  </div> -->
+  <!-- header area start -->
+  <div id="header-fixed-height"></div>
+  <header class="header_area" id="sticky-header">
+    <nav class="navbar navbar-expand-xl d-none d-xl-flex">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo.png" alt="logo" width="280">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-lg-0">
+          </ul>
+          <div class="login d-flex align-items-center gap-4">
+            <h4 class="title">Already a member?</h4>
+            <a href="login.html" class="login_btn">Log in</a>
+            <span class="info"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-info-circle">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" />
+                <path d="M12 9h.01" />
+                <path d="M11 12h1v4h1" /></svg>
+              <div class="info_dropdown_box">
+                <h4 class="title">For Service Assistance</h4>
+                <a href="tel:7538897555">Call 7538897555 (Toll-Free)</a>
+                <hr>
+                <h4 class="title">For Payment Assistance</h4>
+                <a href="tel:7538897555">Call 7538897555 (Toll-Free)</a>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- mobile navbar part start -->
+    <div class="mobile-menu-area d-block d-xl-none">
+      <div class="mobile-topbar">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="logo">
+              <a href="index-2.html"> <img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="bars">
+              <i class="fas fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <div class="mobile-menu-main">
+        <div class="logo">
+          <a href="index.html"> <img src="images/logo.png" alt="logo"></a>
+        </div>
+        <div class="close-mobile-menu"><i class="fas fa-times"></i></div>
+        <div class="menu-body">
+          <div class="menu-list">
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Consultation
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Health Plans
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Order Medicine
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Home Diagnostics
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Employers & NGOs
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  For Doctors
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="mobile-menu-action-btn pt-4">
+          <a href="login.html" class="uppercase">Log in</a>
+        </div>
+      </div>
+    </div>
+    <!-- mobile navbar part end -->
+  </header>
+  <!-- header area end -->
+
+  <!-- main area start -->
+  <main>
+    <!-- login area start -->
+    <section class="login_area">
+      <div class="container">
+        <div class="login_box">
+          <div class="text-center">
+            <img src="images/logo.png" alt="" width="260">
+            <h2 class="title">Register Your Account</h2>
+          </div>
+          <form action="#">
+            <div class="input_groups">
+              <label for="#">Full Name <sup class="text-danger">*</sup></label>
+              <input type="email" placeholder="Full Name">
+            </div>
+            <div class="radio_groups">
+              <label for="#">Gender <sup class="text-danger">*</sup></label>
+              <div class="d-flex">
+                <div class="form-check">
+                  <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input shadow-none" type="radio" name="flexRadioDefault"
+                    id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Female
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="input_groups">
+              <label for="#">Email or Phone Number <sup class="text-danger">*</sup></label>
+              <input type="text" placeholder="Email or phone number">
+              <small class="text-danger mt-1">Email is required</small>
+            </div>
+            <div class="input_groups">
+              <label for="#">Password</label>
+              <div class="input_box position-relative">
+                <input type="password" placeholder="Password">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="input_groups">
+              <label for="#">Retype Password</label>
+              <div class="input_box position-relative">
+                <input type="password" placeholder="Password">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="button_goups">
+              <button type=" submit">Register</button>
+            </div>
+            <div class="register text-center">
+              <p>Allready have an account?
+                <a href="login.html">Login</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- login area end -->
+  </main>
+  <!-- main area end -->
+  <!-- scroll top part start -->
+  <button class="scroll-to-top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+      class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-up">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M6 15l6 -6l6 6" /></svg>
+  </button>
+  <!-- scroll top part end -->
+  <!-- footer area start -->
+  <footer class="footer_area" style="background-image: url(images/footer-bg-1-1.png)">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-xl-3">
+            <div class="footer-widget footer-widget--about">
+              <h2 class="footer-widget__title">About Ienet</h2>
+              <p class="footer-widget__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias odio sequi itaque illo inventore
+                delectus perferendis magnam distinctio accusamus aliquam.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="footer-widget footer-widget--links ps-xl-5">
+              <h2 class="footer-widget__title">our services</h2>
+              <ul class="list-unstyled footer-widget__links">
+                <li><a href="#">Fiber & Broadband</a></li>
+                <li><a href="#">Cyber Security</a></li>
+                <li><a href="#">Amazon Box TV</a></li>
+                <li><a href="#">Smart IPTV</a></li>
+                <li><a href="#">Smart Connectivity</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="footer-widget footer-widget--links ps-xl-5">
+              <h2 class="footer-widget__title">useful links</h2>
+              <ul class="list-unstyled footer-widget__links">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Movie</a></li>
+                <li><a href="#">News & Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-xl-3">
+            <div class="footer-widget footer-widget--links ps-xl-5">
+              <h2 class="footer-widget__title">Help & Support</h2>
+              <ul class="list-unstyled footer-widget__links">
+                <li><a href="#">24x7 Live help</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">News & Blog</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#">FAQs</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-footer__bottom">
+        <div class="container">
+          <div class="main-footer__bottom__inner">
+            <p class="main-footer__copyright">
+              MuslimMatrimony is part of CommunityMatrimony.com | Copyright © 2024. All rights reserved
+            </p>
+            <p class="main-footer__copyright">
+              This website is strictly for matrimony purpose only and not a dating website
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer area end -->
+
+
+  <!-- all js link -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/chosen.jquery.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
