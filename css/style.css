@@ -1525,6 +1525,9 @@ body {
 }
 
 /* search result area start */
+.search_result_area {
+  padding-top: 100px;
+}
 .search_result_area select {
   height: 45px;
   width: 100%;
