@@ -101,6 +101,10 @@
   .bread_crumb_area .title {
     font-size: 30px;
   }
+
+  .search_result_area .accordion-body h4 {
+    padding: 0 10px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -251,7 +255,7 @@
   }
 
   .section_title {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .features_area {
