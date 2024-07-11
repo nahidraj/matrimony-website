@@ -17,7 +17,7 @@
 /* search result area start */
 
 .search_result_area {
-  padding-top: 100px;
+  padding-top: 80px;
 
   select {
     height: 45px;
@@ -119,6 +119,8 @@
   border-radius: 50%;
   border: 1px solid #ccc;
   cursor: pointer;
+  position: relative;
+  top: -2px;
 }
 
 .search_result_area .left_filter .form-check label {

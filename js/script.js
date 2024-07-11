@@ -15,6 +15,10 @@ $(function () {
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
   })
 
+  $(".profile_search_mobile button").on("click",function(){
+    $(".left_filter_search").toggleClass("show")
+  })
+
   $('.profile_slider').slick({
     draggable: true,
     arrows: true,
@@ -28,6 +32,24 @@ $(function () {
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     prevArrow: '<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon arrow arrow_left icon-tabler icons-tabler-outline icon-tabler-arrow-left"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M5 12l6 6" /><path d="M5 12l6 -6" /></svg>',
     nextArrow: '<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon arrow arrow_right icon-tabler icons-tabler-outline icon-tabler-arrow-right"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l14 0" /><path d="M13 18l6 -6" /><path d="M13 6l6 6" /></svg>',
+    responsive: [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 1,
+      }
+    }]
   })
   // chosen js
   $(".chosen").chosen()
@@ -51,7 +73,19 @@ $(function () {
     arrows: false,
     dots: false,
     responsive: [{
+      breakpoint: 1200,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
       breakpoint: 992,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 576,
       settings: {
         slidesToShow: 1,
       }

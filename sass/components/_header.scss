@@ -3,7 +3,7 @@
   position: relative;
   z-index: 999;
   width: 100%;
-  padding: 5px 0;
+  padding: 8px 0;
   border-bottom: 1px solid #ddd;
 
   .navbar {
@@ -86,12 +86,37 @@
         }
       }
     }
-    &:hover{
-      .info_dropdown_box{
-         visibility: visible;
-         opacity: 1;
- 
+
+    &:hover {
+      .info_dropdown_box {
+        visibility: visible;
+        opacity: 1;
+
       }
+    }
+  }
+}
+
+.info_dropdown_boxs {
+  background-color: $white;
+  padding: 24px;
+  cursor: auto;
+  color: $black;
+
+
+  .title {
+    @include font(15px, 500);
+    margin-bottom: 7px;
+    color: $black;
+  }
+
+  a {
+    color: $paragraph;
+    @include font(13px, 500);
+    color: $black;
+
+    &:hover {
+      color: $primary;
     }
   }
 }
@@ -128,42 +153,23 @@
 .mobile-menu-area .mobile-topbar {
   width: 100%;
   background-color: $white;
-  padding: 13px 0;
 }
 
 .mobile-menu-area .mobile-topbar .bars {
   position: relative;
-}
-
-.mobile-menu-area .mobile-topbar .bars i {
+  cursor: pointer;
+  width: 35px;
   height: 35px;
-  width: 45px;
-  color: $black;
-  font-size: 24px;
-  text-align: center;
-  line-height: 35px;
-  border-radius: 3px;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid $black;
+  border-radius: 5px;
   transition: $transition;
-}
-
-.mobile-menu-area .mobile-topbar .icon i {
-  width: 45px;
-  height: 45px;
-  background-color: $white;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 45px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all linear 0.2s;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-}
-
-.mobile-menu-area .mobile-topbar .icon i:hover {
-  background-color: $primary;
-  color: $white;
-  border-color: $primary;
+  &:hover{
+    background-color: $black;
+    color: $white;
+  }
 }
 
 .mobile-menu-area .mobile-menu-overlay {
@@ -194,24 +200,9 @@
 
 .mobile-menu-area .mobile-menu-main .close-mobile-menu {
   position: absolute;
-  top: 16px;
-  right: 10px;
-}
-
-.mobile-menu-area .mobile-menu-main .close-mobile-menu i {
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  color: $black;
-  font-size: 17px;
+  top: 30px;
+  right: 20px;
   cursor: pointer;
-  transition: all linear 0.2s;
-  transition: $transition;
-}
-
-.mobile-menu-area .mobile-menu-main .close-mobile-menu i:hover {
-  color: $primary;
 }
 
 .mobile-menu-area .mobile-menu-main .menu-body .menu-list {
